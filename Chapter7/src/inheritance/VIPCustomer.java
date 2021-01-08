@@ -3,7 +3,7 @@ package inheritance;
 public class VIPCustomer extends Customer{
 	
 	double salesRatio;
-	//private int agentID;
+	private int agentID;
 	
 	public VIPCustomer() {
 		customerGrade = "VIP";
