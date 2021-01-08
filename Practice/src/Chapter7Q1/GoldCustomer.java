@@ -14,4 +14,12 @@ public class GoldCustomer extends Customer{
 		bonusPoint += price * bonusRatio;
 		return price - (int)(price * salesRatio);
 	}
+
+	public double getSalesRatio() {
+		return salesRatio;
+	}
+
+	public void setSalesRatio(double salesRatio) {
+		this.salesRatio = salesRatio;
+	}
 }
